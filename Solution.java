@@ -2,10 +2,6 @@
 import java.util.HashMap;
 import java.util.Map;
 
-/*
-The number of seats per row is always 10, hence, (1 << 10) < INTEGER_MAX_VALUE.
-Thus, the position of each seat can easily be stored as a bitstamp.
- */
 public class Solution {
 
     private static final int FAMILY_SIZE = 4;
